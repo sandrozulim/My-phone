@@ -1,0 +1,51 @@
+.section-banner {
+  margin-top: 180px;
+}
+
+.section-banner__title {
+  position: absolute;
+  font-size: 8em;
+  transform: rotateZ(20deg);
+  transition: transform 3s;
+}
+
+.section-banner__title:hover {
+  transform: rotateZ(380deg);
+}
+
+.section-specs {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.section-specs__table {
+  font-size: 30px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: black;
+  flex-grow: 1;
+  border-spacing: 40px;
+}
+
+.section-similar {
+  margin-top: 20px;
+  justify-content: space-evenly;
+}
+
+.section-similar-div {
+  width: 25%;
+  border-radius: 20px;
+  transition: background-color 70ms;
+}
+
+.section-similar-div:hover {
+  background-color: #90a4ae;
+}
+
+.section-similar-div__img {
+  width: 200px;
+  height: 357.34px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}

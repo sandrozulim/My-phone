@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>My phone</title>
+  </head>
+
+  <body>
+    <header class="header flex-center">
+      <img
+        src="./images/fococlipping-20220303-18250.png"
+        class="header__img"
+        alt="huawei logo"
+      />
+
+      <h1 class="header__title color-white">Huawei</h1>
+      <nav class="header-nav">
+        <a class="header-nav__link color-white" href="#">Početna</a>
+        <a class="header-nav__link color-white" href="#">Specifikacije</a>
+        <a class="header-nav__link color-white" href="#">Usporedi</a>
+        <a class="header-nav__link color-white" href="#">O nama</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-banner flex-center">
+        <img src="./images/fococlipping-20220306-1213.png" alt="P90" />
+        <h2 class="section-banner__title color-white">HUAWEI P90</h2>
+      </section>
+      <section class="section-specs flex-center">
+        <table class="section-specs__table">
+          <thead class="color-orange">
+            <th colspan="4">Specifikacije</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Zaslon</strong></td>
+              <td><strong>Kamera</strong></td>
+              <td><strong>Memorija</strong></td>
+              <td><strong>Baterija</strong></td>
+            </tr>
+
+            <tr>
+              <td>.1080 x 1920</td>
+              <td>12 MP</td>
+              <td>32 GB</td>
+              <td>
+                3200 mAh <br />
+                Litij Polimerska
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <h2 class="text-center color-orange">Slični uređaji</h2>
+      <section class="section-similar flex-center">
+        <div class="section-similar-div">
+          <img
+            src="./images/fococlipping-20220306-175251.png"
+            class="section-similar-div__img"
+            alt="mob1"
+          />
+          <span class="text-center">Huawei Nova</span>
+        </div>
+
+        <div class="section-similar-div">
+          <img
+            src="./images/fococlipping-20220306-18054.png"
+            class="section-similar-div__img"
+            alt="mob2"
+          />
+          <span class="text-center">Xiaomi</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer flex-center">
+      <address class="footer-address flex-vertical color-orange">
+        <span>Sandro Zulim</span>
+
+        <a href="mailto:zulim.sandro@gmail.com" class="color-white"
+          >Mail:zulim.sandro@gmail.com</a
+        >
+        <a href="tel:+385911693327" class="color-white">Tel:+385911693327</a>
+      </address>
+      <small class="color-white">© 2022 Zulim Sandro All rights reserved</small>
+
+      <section class="footer-section flex-vertical color-white">
+        <h3 class="color-orange">Prijavi se na naš newsletter</h3>
+        <form>
+          <label for="mail">Enter your email</label>
+          <input
+            type="email"
+            name="mail"
+            id="mail"
+            placeholder="example@yahoo.com"
+          />
+          <input type="submit" value="Subscribe!" />
+        </form>
+      </section>
+    </footer>
+  </body>
+</html>

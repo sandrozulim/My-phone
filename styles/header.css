@@ -1,0 +1,38 @@
+.header {
+  background-color: black;
+  margin: 0px 0px 10px 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.header__img {
+  margin: 0px 20px 0 60px;
+  width: 88px;
+}
+
+.header__title {
+  margin: 0 0 0 10px;
+  flex-grow: 1;
+}
+
+.header-nav {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.header-nav__link {
+  text-decoration: none;
+  padding: 4px;
+  margin-right: 32px;
+  border-radius: 5px;
+  border-bottom: 1px transparent solid;
+  background-color: transparent;
+  transition: border-bottom 0.5s;
+}
+
+.header-nav__link:hover {
+  border-bottom: 1px rgb(255, 255, 255) solid;
+}
